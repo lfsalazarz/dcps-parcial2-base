@@ -7,5 +7,5 @@ export default DS.Model.extend({
     email: DS.attr('string'),
     profilePicture: DS.attr('string'),
 
-    //blogPost: DS.hasMany('blogPost')
+    posts: DS.hasMany('blogPost')
 });
